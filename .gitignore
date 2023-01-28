@@ -86,3 +86,5 @@ pyvenv.cfg
 pip-selfcheck.json
 
 .env.dev
+/postgres_data/
+/redis_data/
