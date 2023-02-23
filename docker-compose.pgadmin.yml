@@ -21,8 +21,8 @@ services:
     container_name: pgadmin_container
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "baddman@list.ru"
-      PGADMIN_DEFAULT_PASSWORD: "Apple123"
+      PGADMIN_DEFAULT_EMAIL: "-"
+      PGADMIN_DEFAULT_PASSWORD: "-"
       PGADMIN_CONFIG_SERVER_MODE: "False"
     volumes:
       - pgadmin:/var/lib/pgadmin
