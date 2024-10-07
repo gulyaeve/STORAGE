@@ -89,3 +89,4 @@ pip-selfcheck.json
 /postgres_data/
 /redis_data/
 .idea
+/rabbitmq_data/
