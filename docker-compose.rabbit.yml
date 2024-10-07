@@ -31,4 +31,6 @@ services:
     volumes:
         - ./rabbitmq_data/data/:/var/lib/rabbitmq/
         - ./rabbitmq_data/log/:/var/log/rabbitmq
+    env_file:
+      - ".env.dev"
 
